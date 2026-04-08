@@ -32,7 +32,7 @@ flowchart TD
         D -. uses .-> T3["🔧 deployment_history"]:::tool
 
         %% Flow execution
-        B -->|Assigned Severity (P0-P4)| C
+        B -->|Assigns Severity| C
         C -->|Smoke Test Assertions| D
         D -->|Downstream Impacts| E
     end
