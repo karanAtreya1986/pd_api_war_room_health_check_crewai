@@ -1,0 +1,16 @@
+# Python Cache
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Logs
+error_log.txt
+pytest_output.log
+
+# Environment Variables
+# Note: We are pushing the template `.env` explicitly with placeholders as requested so it's not strictly ignored right now, 
+# but uncomment the line below in production environments.
+# .env 
+
+# System files
+.DS_Store
